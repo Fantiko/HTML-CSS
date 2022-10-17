@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <div align="center">
+        <form action="url" method="post">
+
+            <table>
+                <caption><h2>Fale Conosco</h3></caption>
+                    <tr>
+                        <td align="right">
+                            <label for="nome">Nome*: &nbsp;</label>
+                        </td>
+                        <td>
+                            <input type="text" name="nome" id="nome" required>
+                        </td>
+                    </tr>
+            <tr>
+                <td align="right">
+                    <label for="Snome">Sobrenome*: &nbsp;</label>
+                </td>
+                <td>
+                    <input type="text" name="Snome" id="Snome" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="email">E-mail*: &nbsp;</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="telefone">Telefone*: &nbsp;</label>
+                </td>
+                <td>
+                    <input type="tel" name="telefone" id="telefone" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="assunto">Assunto*: &nbsp;</label>
+                </td>
+                <td>
+                    <select name="assunto" id="assunto" required>
+                        <option value="Dúvida">Dúvida</option>
+                        <option value="Sugestão">Sugestão</option>
+                        <option value="Reclamação">Reclamação</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="mensagem">Mensagem*: &nbsp;</label>
+                </td>
+                <td>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+                </tr>
+                <tr>
+                    <td align="right">
+                        
+                    </td>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                </table>
+            </div>
+        </form>
+</body>
+</html>

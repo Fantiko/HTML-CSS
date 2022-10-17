@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+    <div align="center">
+        <br>
+        <br>
+        <form action="url_script" method="post">
+            <table>
+                <tr>
+                    <td align="right">
+                        <label for="nome">Nome: &nbsp;</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome" id="nome">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="senha">Senha: &nbsp;</label>
+                    </td>
+                    <td>
+                        <input type="password" size="10" name="senha" maxlength="8">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="SO">Sistema Operacional: &nbsp;</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="SO" id="SO">Windows 7 &nbsp;
+                        <input type="checkbox" name="SO" id="SO">Windows 10 &nbsp;
+                        <input type="checkbox" name="SO" id="SO">Linux &nbsp;
+                        <input type="checkbox" name="SO" id="SO">Mac OS &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="processador">Processador: &nbsp;</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="processador" id="processador">Intel &nbsp;
+                        <input type="radio" name="processador" id="processador">AMD &nbsp;
+                        <input type="radio" name="Processador" id="processador">Cyrix &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="profissao">Profissão:&nbsp;</label> &nbsp;
+                    </td>
+                    <td>
+                        <select name="profissao" id="profissao" size="2" name="profissao">
+                            <option>Analista de Sistema</option>
+                            <option>Analista de Suporte</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="mensagem">Comentários: &nbsp;</label> &nbsp;
+                    </td>
+                    <td>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <input type="submit" value="Enviar"> &nbsp;
+                    </td>
+                    <td>
+                        <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

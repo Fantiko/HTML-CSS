@@ -1,0 +1,21 @@
+/* Path: css\meuestilo.css */
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    background-color:gray; 
+    color:blue;
+}
+
+h3{
+    color: green;
+}
+
+

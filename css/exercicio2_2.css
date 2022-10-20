@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+}
+
+h2{
+    color: red;
+    background-color:gray;
+}
+
+h3{
+    color: green;
+}
+
+body{
+    background-color: white;
+    color: black;
+    background-image:url(../imagens/imageCSS.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+
+}

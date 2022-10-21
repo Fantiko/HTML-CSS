@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: url(../imagens/tijolos.jpg);
+    background-repeat: repeat;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+h2{  
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24pt;
+    text-transform: capitalize;
+}
+
+h3{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20pt;
+    text-transform: capitalize;
+}
+
+p{
+    text-indent: 26px;
+}

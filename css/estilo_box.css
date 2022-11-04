@@ -1,0 +1,41 @@
+body{
+    background: #E0EEEE;
+    width: 750px;
+    border: 4px;
+    border-style: dashed;
+    border-color: #696969;
+    padding: 5px;
+    margin: 20px 50px 50px 100px;
+}
+
+h1{
+    color: #27408b;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    padding-left: 30px;    
+
+}
+
+h2{
+    border: 1px;
+    border-style: dotted;
+}
+
+p{
+    text-indent: 15px;
+    border-left: 2px;
+    border-color: #ffd700;
+    border-style: solid;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+.classediv{
+    background: #f8f8ff;
+    border: 2px;
+    border-style: double;
+    border-color: #a52a2a;
+    
+}

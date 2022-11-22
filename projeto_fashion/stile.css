@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+header{
+    background: rgb(12, 6, 37);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    z-index: 2;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+header a{
+    color: rgb(59, 59, 149);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: smaller;
+}
+
+nav a{
+    padding: 0 20px;
+}
+
+
+/*main*/
+
+#Portfolio img{
+    padding-top: 40px;
+    width: 100%;
+}
+
+#Portfolio h1{
+    text-align: center;
+    padding: 40px 20px;
+    
+}
+
+#Portfolio p{
+    text-align: center;
+    line-height: 2em;
+    box-sizing: border-box;
+    padding: 10px 100px;
+    color: rgb(130, 130, 130);
+}
+
+#Gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+#Gallery div{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#Gallery div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#Gallery div p{
+    color: rgb(130, 130, 130);
+    text-transform: none;
+}
+
+#About{
+    background-color:rgb(11, 59, 82);
+    color: white;
+    padding: 60px 0 0px 60px;
+}
+
+#About p{
+    padding: 30px 160px 0px 0px;
+    line-height: 2em;
+}
+
+#About h1{
+    font-weight: lighter;
+}
+
+#imgcontainer{
+    display: flex;
+}
+
+#Contact{
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+footer{
+    background-color:rgb(12, 6, 37);
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    height: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 8px;
+}
+
+

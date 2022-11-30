@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+
+header div {
+    height: 30vh;
+    background-color: orange;
+}
+
+header nav{
+    height: 10vh;
+    background-color: lightgreen;
+}
+
+.conteudo0{
+    height: 50vh;
+    display: flex;
+    flex-grow: 1;
+}
+
+.conteudo1{
+    height: 100%;
+    background-color: lightblue;
+    flex-grow: 3;
+}
+
+.conteudo2{
+    height: 100%;
+    background-color: green;
+    flex-grow: 7;
+}
+
+footer{
+    height: 10vh;
+    background-color: darkblue;
+}
+
+@media screen and (max-width: 992px) {
+    header div{
+        background-color: black;
+    }
+    .conteudo0{
+        flex-direction: column;
+    }
+
+    .conteudo2{
+        background-color: darkred;
+
+    }
+}
